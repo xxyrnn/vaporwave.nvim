@@ -2,8 +2,6 @@
 
 Vaporwave/synthwave theme for Neovim
 
----
-
 ## Installation
 
 - lazy.nvim:
