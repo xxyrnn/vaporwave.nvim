@@ -8,11 +8,11 @@ Vaporwave/synthwave theme for Neovim
 
   ```lua
   return {
-    "xxyrnn/vaporwave.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.cmd("colorscheme vaporwave")
-    end
+      "xxyrnn/vaporwave.nvim",
+      lazy = false,
+      priority = 1000,
+      config = function()
+          vim.cmd("colorscheme vaporwave")
+      end
   }
   ```
