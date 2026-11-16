@@ -74,7 +74,7 @@ M.setup = function()
         LineNrBelow = { link = "LineNr" },
         ColorColumn = { link = "NonText" },
         SignColumn = { bg = colors.bg0 },
-        FoldColumn = { fg = colors.grey0, bg = colors.bg },
+        FoldColumn = { fg = colors.grey0, bg = colors.bg0 },
         Folded = { fg = colors.grey0 },
         MatchParen = { bg = colors.bg3 },
 
@@ -90,9 +90,9 @@ M.setup = function()
         PmenuExtraSel = { link = "PmenuSel" },
         PmenuMatch = { link = "Pmenu" },
         PmenuMatchSel = { link = "PmenuSel" },
-        PmenuSbar = { bg = colors.bg },
+        PmenuSbar = { bg = colors.bg0 },
         PmenuThumb = { bg = colors.grey0 },
-        WildMenu = { fg = colors.black, bg = colors.bright_white },
+        WildMenu = { fg = colors.bg1, bg = colors.grey1 },
 
         StatusLine = { fg = colors.fg, bg = colors.bg1 },
         StatusLineNC = { fg = colors.grey1 },
@@ -136,7 +136,7 @@ M.setup = function()
         ["@comment.documentation"] = { fg = colors.green },
         ["@comment.error"] = { fg = colors.red },
         ["@comment.warning"] = { fg = colors.yellow },
-        ["@comment.todo"] = { fg = colors.orange },
+        ["@comment.todo"] = { link = "Todo" },
         ["@comment.note"] = { fg = colors.green },
 
         ["@variable"] = { link = "Identifier" },
