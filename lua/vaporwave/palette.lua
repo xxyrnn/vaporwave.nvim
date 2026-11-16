@@ -1,4 +1,4 @@
----@type Palette
+---@class Palette
 return {
     bg0 = "#0a0b18",
     bg1 = "#180c22",
