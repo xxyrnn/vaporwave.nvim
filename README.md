@@ -12,7 +12,7 @@ Vaporwave/synthwave theme for Neovim
       lazy = false,
       priority = 1000,
       config = function()
-          vim.cmd("colorscheme vaporwave")
+          vim.cmd.colorscheme("vaporwave")
       end
   }
   ```
