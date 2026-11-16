@@ -4,7 +4,9 @@ return {
     bg1 = "#180c22",
     bg2 = "#2a0938",
     bg3 = "#63173e",
+
     fg = "#f2e5bb",
+
     red = "#82222d",
     orange = "#c4631f",
     yellow = "#d9ad40",
@@ -13,7 +15,9 @@ return {
     blue = "#2730b1",
     purple = "#871550",
     pink = "#fc00fd",
+
     grey0 = "#ab8e88",
     grey1 = "#d2b9b2",
+
     accent = "#fc00fd" -- pink
 }
