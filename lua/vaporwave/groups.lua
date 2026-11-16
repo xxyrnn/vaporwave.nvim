@@ -23,7 +23,7 @@ M.setup = function()
 
         Comment = { fg = colors.grey0, italic = true },
         SpecialComment = { fg = colors.green, italic = true },
-        Todo = { fg = colors.orange, bold = true },
+        Todo = { fg = colors.orange },
 
         Constant = { fg = colors.red },
         String = { fg = colors.green },
@@ -337,6 +337,19 @@ M.setup = function()
 
         debugBreakpoint = { fg = colors.red, reverse = true },
         debugPC = { fg = colors.fg, bg = colors.bg3 },
+
+        --[[ TODO-COMMENTS --]]
+
+        TodoBgFIX = { fg = colors.fg, bg = colors.red },
+        TodoFgFIX = { link = "@comment.error" },
+        TodoBgWARN = { fg = colors.bg3, bg = colors.yellow },
+        TodoFgWARN = { link = "@comment.warning" },
+        TodoBgHACK = { fg = colors.fg, bg = colors.blue },
+        TodoFgHACK = { fg = colors.blue },
+        todoBgTODO = { fg = colors.fg, bg = colors.orange },
+        todoFgTODO = { link = "@comment.todo" },
+        TodoBgNOTE = { fg = colors.bg3, bg = colors.green },
+        TodoFgNOTE = { link = "@comment.note" },
 
         --[[ BUFFERLINE --]]
 
